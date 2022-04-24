@@ -1,5 +1,13 @@
+import Header from './components/Header';
+import About from './components/About';
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <Header />
+      <About />
+    </>
+  );
 }
 
 export default App;
