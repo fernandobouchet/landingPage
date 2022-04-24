@@ -40,6 +40,7 @@ const InfoContainer = styled.div`
   padding: 30px 0;
   background: #ffffff;
   border-radius: 10px;
+  box-shadow: 0 40px 60px -50px rgba(245, 56, 56, 0.35); ;
 `;
 
 const InfoSubContainer = styled.div`
