@@ -45,6 +45,13 @@ const GetStartedButton = styled.button`
   line-height: 25px;
   color: #ffffff;
   cursor: pointer;
+  box-shadow: 0 25px 45px 5px rgba(245, 56, 56, 0.35);
+  transition: 0.2s linear;
+
+  &:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
 `;
 
 const StyledH1 = styled.h1`
