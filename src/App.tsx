@@ -3,6 +3,7 @@ import About from './components/About';
 import Info from './components/Info';
 import Features from './components/Features';
 import Plans from './components/Plans';
+import Network from './components/Network';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Info />
       <Features />
       <Plans />
+      <Network />
     </>
   );
 }
