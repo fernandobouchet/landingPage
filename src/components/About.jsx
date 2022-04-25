@@ -50,7 +50,6 @@ const GetStartedButton = styled.button`
 
   &:hover {
     transform: scale(1.05);
-    opacity: 0.9;
   }
 `;
 
