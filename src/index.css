@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 body {
-  margin: auto;
+  margin: 0;
   font-family: 'Rubik', sans-serif;
-  max-width: 1200px;
 }

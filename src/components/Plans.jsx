@@ -107,6 +107,7 @@ const Plans = () => {
 export default Plans;
 
 const PlanContainer = styled.div`
+  width: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;

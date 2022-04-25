@@ -25,7 +25,7 @@ export default Header;
 
 const HeaderSection = styled.section`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 40px 0;
 `;
 

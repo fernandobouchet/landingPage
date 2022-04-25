@@ -38,7 +38,7 @@ export default Features;
 const FeaturesContainer = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 50px 0px;
 `;
 

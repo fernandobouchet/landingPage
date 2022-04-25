@@ -3,27 +3,29 @@ import styled from 'styled-components';
 const Info = () => {
   return (
     <InfoContainer>
-      <InfoSubContainer>
-        <StyledImg src="../assets/icons/user.png" alt="" />
-        <div>
-          <InfoNumber>90+</InfoNumber>
-          <InfoName>Users</InfoName>
-        </div>
-      </InfoSubContainer>
-      <InfoSubContainer>
-        <StyledImg src="../assets/icons/location.png" alt="" />
-        <div>
-          <InfoNumber>30+</InfoNumber>
-          <InfoName>Locations</InfoName>
-        </div>
-      </InfoSubContainer>
-      <InfoSubContainer>
-        <StyledImg src="../assets/icons/Server.png" alt="" />
-        <div>
-          <InfoNumber>50+</InfoNumber>
-          <InfoName>Servers</InfoName>
-        </div>
-      </InfoSubContainer>
+      <Container>
+        <InfoSubContainer>
+          <StyledImg src="../assets/icons/user.png" alt="" />
+          <Separator>
+            <InfoNumber>90+</InfoNumber>
+            <InfoName>Users</InfoName>
+          </Separator>
+        </InfoSubContainer>
+        <InfoSubContainer>
+          <StyledImg src="../assets/icons/location.png" alt="" />
+          <Separator>
+            <InfoNumber>30+</InfoNumber>
+            <InfoName>Locations</InfoName>
+          </Separator>
+        </InfoSubContainer>
+        <InfoSubContainer>
+          <StyledImg src="../assets/icons/Server.png" alt="" />
+          <Separator>
+            <InfoNumber>50+</InfoNumber>
+            <InfoName>Servers</InfoName>
+          </Separator>
+        </InfoSubContainer>
+      </Container>
     </InfoContainer>
   );
 };
@@ -34,19 +36,26 @@ const InfoContainer = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1140px;
-  height: 200px;
+  justify-content: center;
   margin: 60px 0;
   padding: 30px 0;
   background: #ffffff;
+`;
+
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 200px;
+  gap: 100px;
   border-radius: 10px;
   box-shadow: 0 40px 60px -50px rgba(245, 56, 56, 0.35); ;
 `;
-
 const InfoSubContainer = styled.div`
   display: flex;
   align-items: center;
-  gap: 40px;
+  justify-content: center;
 `;
 
 const StyledImg = styled.img`
@@ -70,4 +79,8 @@ const InfoName = styled.h3`
   font-size: 20px;
   line-height: 30px;
   color: #4f5665;
+`;
+
+const Separator = styled.div`
+  padding: 0 40px;
 `;
