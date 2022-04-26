@@ -4,6 +4,7 @@ import Info from './components/Info';
 import Features from './components/Features';
 import Plans from './components/Plans';
 import Network from './components/Network';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Features />
       <Plans />
       <Network />
+      <Testimonials />
     </>
   );
 }
