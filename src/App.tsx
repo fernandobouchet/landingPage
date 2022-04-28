@@ -5,6 +5,7 @@ import Features from './components/Features';
 import Plans from './components/Plans';
 import Network from './components/Network';
 import Testimonials from './components/Testimonials';
+import Subscribe from './components/Subscribe';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Plans />
       <Network />
       <Testimonials />
+      <Subscribe />
     </>
   );
 }
